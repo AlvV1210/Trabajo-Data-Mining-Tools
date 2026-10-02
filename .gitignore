@@ -1,0 +1,41 @@
+# Entornos y caché de Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+dist/
+build/
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Datos: se versiona la estructura, no los archivos
+data/raw/*
+data/interim/*
+data/processed/*
+data/external/*
+!data/**/.gitkeep
+!data/**/README.md
+
+# Modelos y figuras generadas
+models/*
+!models/.gitkeep
+reports/figures/*
+!reports/figures/.gitkeep
+
+# Secretos y configuración local
+.env
+.env.*
+*.pem
+credentials.json
+secrets.yaml
+config/settings.yaml
+
+# Sistema y editores
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/

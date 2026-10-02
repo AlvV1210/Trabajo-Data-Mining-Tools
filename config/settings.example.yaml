@@ -1,0 +1,13 @@
+datos:
+  crudos: data/raw
+  intermedios: data/interim
+  procesados: data/processed
+  externos: data/external
+
+division:
+  test_size: 0.2
+  random_state: 42
+
+modelo:
+  n_estimators: 100
+  n_clusters: 3
